@@ -1,1 +1,70 @@
 /* CSS declarations go here */
+
+.navbar {
+  position: fixed;
+  background: #3a4349;
+  margin: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+  display: block;
+}
+
+.main-container {
+  display: block;
+  position: relative;
+  padding-top: 50px;
+  height: 550px;
+  width: 100%;
+}
+
+/*Footer*/
+
+#footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  text-align: center;
+}
+
+.col-md-4 {
+  height:50px;
+  padding: 0;
+  float: left;
+  width: 33.33333333%;
+}
+
+.row {
+  margin: 0;
+}
+
+#footer-home:hover {
+  background: #3a4349;
+}
+
+#footer-home:hover {
+  background: #517fa4
+}
+
+#footer-loans:hover {
+  background: #3a4349;
+}
+
+#footer-loans {
+  background: #517fa4
+}
+
+#footer-about:hover {
+  background: #3a4349;
+}
+
+#footer-about:hover {
+  background: #517fa4
+}
+
+.glyphicon {
+  color: white;
+  font-size: 1.8em;
+  margin-top: 12px;
+}

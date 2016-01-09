@@ -1,4 +1,3 @@
-<template name="main">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,13 +8,11 @@
     <title>smartreverse</title>
   </head>
 
-  <body>
-    <h1>Landing Page</h1>
-    {{> nav}}
+<template name="main">
+  {{> nav}}
+  <div class="main-container">
     {{> yield}}
-    <a href="/">Home</a>
-    <a href="/loans">Loans</a>
-    <a href="/about">About</a>
-  </body>
+  </div>
+  {{> footer }}
 </template>
 
