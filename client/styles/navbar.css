@@ -1,0 +1,14 @@
+.navbar {
+  position: fixed;
+  background: #3a4349;
+  margin: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 0;
+  display: block;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: white;
+}

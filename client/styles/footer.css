@@ -1,0 +1,59 @@
+/*Footer*/
+
+#footer {
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  text-align: center;
+}
+
+/*Load order important here*/
+
+.col-md-4 {
+  height:50px;
+  padding: 0;
+  float: left;
+  width: 33.33333333%;
+  background: #3a4349;
+}
+
+.checked {
+  background: black;
+}
+
+/*end important order*/
+
+.row {
+  margin: 0;
+}
+
+#footer-home {
+  transition: background-color 0.6s ease;
+}
+
+#footer-home:hover {
+  background: #1c5380;
+}
+
+#footer-loans {
+  transition: background-color 0.6s ease;
+}
+
+#footer-loans:hover {
+  background: #1c5380;
+}
+
+#footer-about {
+  transition: background-color 0.6s ease;
+}
+
+#footer-about:hover {
+  background: #1c5380;
+}
+
+.glyphicon {
+  color: white;
+  font-size: 1.8em;
+  margin-top: 12px;
+}

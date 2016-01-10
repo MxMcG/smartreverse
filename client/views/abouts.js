@@ -1,6 +1,17 @@
 Template.abouts.onRendered( function() {
-  $("#footer-home").css("background", "#3a4349");
-  $("#footer-loans").css("background", "#3a4349");
-  $("#footer-about").css("background", "green");
+
 
 });
+
+Template.abouts.helpers({
+  homeChecked: function() {
+    return false;
+  },
+  loansChecked: function() {
+    return false;
+  },
+  aboutChecked: function() {
+    return true;
+  }
+});
+

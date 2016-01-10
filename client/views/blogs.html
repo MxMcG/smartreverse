@@ -1,3 +1,24 @@
 <template name="blogs">
-  <h2>Blog</h2>
+  <div class="abouts-container">
+      <h4>Blog</h4>
+  </div>
+
+<!-- footer -->
+  <div class="row" id="footer">
+    <a href="/">
+      <div class="{{#if homeChecked}}checked{{/if}} col-md-4" id="footer-home">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+      </div>
+    </a>
+    <a href="/loans">
+      <div class="{{#if loansChecked}}checked{{/if}} col-md-4" id="footer-loans">
+        <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+      </div>
+    </a>
+    <a href="/about">
+      <div class="{{#if aboutChecked}}checked{{/if}} col-md-4" id="footer-about">
+        <span class="glyphicon glyphicon-font" aria-hidden="true"></span>
+      </div>
+    </a>
+  </div>
 </template>

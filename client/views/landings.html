@@ -1,5 +1,42 @@
 <template name="landings">
+  <!-- opener -->
+  <div class="landings-container" id="opener">
+    <div class="back-img">
+    </div>
+    <div class="cover">
+      <h2>landings lorem ipsum lorem ipsum lorem ipsum</h2>
+      <p>landings lorem ipsum lorem ipsum lorem ipsum landings lorem ipsum lorem ipsum lorem ipsum</p>
+    </div>
+  </div>
 
-    <h4>landings</h4>
+  <div class="landings-container" id="secondary">
 
+  </div>
+  <!-- hold icons -->
+  <div class="landings-container" id="third">
+    <div class="icon-container">
+      <img src="img/bbb_icon.png" id="bbb-icon">
+      <img src="img/c2.png" id="c2-icon">
+      <img src="img/eql_housing.png" id="eql-icon">
+    </div>
+  </div>
+
+<!-- footer -->
+  <div class="row" id="footer">
+    <a href="/">
+      <div class="{{#if homeChecked}}checked{{/if}} col-md-4" id="footer-home">
+        <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+      </div>
+    </a>
+    <a href="/loans">
+      <div class="{{#if loansChecked}}checked{{/if}} col-md-4" id="footer-loans">
+        <span class="glyphicon glyphicon-usd" aria-hidden="true"></span>
+      </div>
+    </a>
+    <a href="/about">
+      <div class="{{#if aboutChecked}}checked{{/if}} col-md-4" id="footer-about">
+        <span class="glyphicon glyphicon-font" aria-hidden="true"></span>
+      </div>
+    </a>
+  </div>
 </template>
