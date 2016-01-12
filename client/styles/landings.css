@@ -2,12 +2,14 @@
   position: relative;
   height: 550px;
   width: 100%;
-  padding: 0 0 115px 0;
+  padding: 0;
   z-index: 0;
-  background: lightgray;
+  background: #F2f2f2;
   top: 50px;
   margin: 0 auto;
 }
+
+/*Landings top section*/
 
 .back-img {
   background-image: url("img/elderly1.jpeg");
@@ -29,22 +31,95 @@
 }
 
 .cover h2 {
-  padding-top: 22.5%;
+  padding-top: 90px;
   width: 90%;
   margin: 0 auto;
   font-size: 60px;
   font-weight: 700;
 }
 
-.cover p {
-  width: 90%;
+.cover h3 {
+  width: 60%;
   margin: 0 auto;
-  padding-top: 5%;
+  padding-top: 30px;
 }
 
 #secondary {
-  background-color: white;
+  background-color: #F8F4F3;
 }
+
+.sales-btn {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.sales-btn a {
+  background-color: #3a4349;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  position: relative;
+  text-transform: uppercase;
+  color: white;
+  height: 60px;
+  font-size: 16px;
+  border: 1px solid white;
+  line-height: 50px;
+  transition: background .2s ease-in-out;
+}
+
+/*Landing middle section*/
+
+.landings-mid {
+  width: 90%;
+  margin: 0 auto;
+  height: 80%;
+  position: relative;
+  top: 10%;
+  /*border: 1px black solid;*/
+}
+
+.mid-top {
+  width: 100%;
+  height: 30%;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  text-align: center;
+}
+
+.mid-top h3 {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  padding-top: 35px;
+}
+
+.mid-btm {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 60%;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+}
+
+.mid-btm img {
+  width: 100%;
+  height: 30%;
+  border-radius: 0 0 12px 12px;
+}
+
+.mid-btm h3 {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+/*Landing bottom section*/
 
 #third {
 
@@ -78,8 +153,49 @@
   top: 20px;
 }
 
+@media only screen and (min-width : 768px)  {
+  .icon-col {
+    width: 33%;
+    display: inline-block;
+  }
+  #eql-icon {
+
+  }
+  #c2-icon {
+
+  }
+  #bbb-icon {
+
+  }
+  #third img {
+    display: inline;
+  }
+  .icon-container {
+    padding-top: 80px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+
 @media only screen and (max-width : 768px)  {
+  .icon-container {
+    padding-top: 0;
+
+  }
   .cover h2 {
-    font-size: 25px;
+    font-size: 35px;
+  }
+  .cover h3 {
+    width: 80%;
+  }
+  .sales-btn {
+    margin-bottom: 70px;
+  }
+  .mid-btm h3 {
+    width: 90%;
+    font-size: 20px;
+    padding-top: 20px;
   }
 }

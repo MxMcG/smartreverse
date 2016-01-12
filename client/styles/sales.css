@@ -1,3 +1,21 @@
 .sales-container {
+  position: relative;
+  height: 550px;
+  width: 100%;
+  padding: 0;
+  z-index: 0;
+  top: 50px;
+  margin: 0 auto;
+}
 
+.sales-fir {
+  height: 550px;
+  width: 100%;
+  background: #F2f2f2;
+}
+
+.sales-sec {
+  height: 550px;
+  width: 100%;
+  background: black;
 }
