@@ -11,11 +11,84 @@
 .sales-fir {
   height: 550px;
   width: 100%;
-  background: #F2f2f2;
+  background: white;
 }
+
+.sales-fir h2 {
+  text-align: center;
+  padding-top: 60px;
+  width: 90%;
+  margin: 0 auto;
+  /*font-size: 60px;*/
+  font-weight: 700;
+}
+
+.sales-fir h4 {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.info-wrp {
+  padding-top: 30px;
+  display: block;
+  width: 75%;
+  margin: 0 auto;
+  /*border: 1px black solid;*/
+}
+
+.email-form label {
+  display: block;
+  color: gray;
+  padding-bottom: 8px;
+}
+
+.email-form input {
+  display: block;
+  border-radius: 5px;
+}
+
+.email-form input[type=text] {
+  border: #eeeeee solid 2px;
+  margin-bottom: 10px;
+  width: 90%;
+  padding: 10px;
+}
+
+.email-form input[type=submit] {
+  width: 60%;
+  text-align: left;
+  background: #3a4349;
+  color: white;
+  border-style: none;
+  padding: 10px;
+  transition: background .2s ease-in-out;
+}
+
+.email-form input[type=submit]:hover {
+  background: #1c5380;
+}
+.info-wrp a {
+  position: relative;
+  top: 28px;
+  color: #1c5380;
+  font-size: 30px;
+  font-weight: 400;
+}
+
 
 .sales-sec {
   height: 550px;
   width: 100%;
-  background: black;
+  background: #F2f2f2;
+}
+
+@media only screen and (min-width : 768px) {
+  .info-wrp a {
+    position: relative;
+    top: 60px;
+  }
+  .info-wrp {
+    padding-top: 70px;
+  }
 }

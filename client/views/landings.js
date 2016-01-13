@@ -14,27 +14,3 @@ Template.landings.helpers({
     return false;
   }
 });
-
-// function bottomNav() {
-//   $("#footer-home").css("background", "black");
-//   $("#footer-loans").css("background", "#3a4349");
-//   $("#footer-about").css("background", "#3a4349");
-// }
-
-// function hoverBtmNav () {
-//   $("#footer-loans").mouseover(function(){
-//     $(this).css("background", "#517fa4");
-//     $("#footer-home").css("background", "black");
-//   }).mouseout(function(){
-//     $(this).css("background", "#3a4349");
-//     $("#footer-home").css("background", "black");
-//   });
-
-//   $("#footer-about").mouseover(function(){
-//     $(this).css("background", "#517fa4");
-//     $("#footer-home").css("background", "black");
-//   }).mouseout(function(){
-//     $(this).css("background", "#3a4349");
-//     $("#footer-home").css("background", "black");
-//   });
-// }
