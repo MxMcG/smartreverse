@@ -8,6 +8,8 @@
   margin: 0 auto;
 }
 
+/*first section*/
+
 .sales-fir {
   height: 550px;
   width: 100%;
@@ -76,11 +78,84 @@
   font-weight: 400;
 }
 
+/*Second section*/
 
 .sales-sec {
   height: 550px;
   width: 100%;
   background: #F2f2f2;
+}
+
+.sales-back-img {
+  /*background-image: url("img/rainbow.jpeg");*/
+  background-size: 100% 100%;
+  height: 550px;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.sales-sec .cover {
+  position: absolute;
+  left: 0;
+  top: 550px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  font-family: "Conv_Gotham-Bold";
+  display: block;
+}
+
+.sales-sec h2 {
+  text-align: center;
+  padding-top: 60px;
+  width: 90%;
+  margin: 0 auto;
+  /*font-size: 60px;*/
+  font-weight: 700;
+}
+
+.sales-sec h4 {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+/*third section*/
+
+.sales-trd {
+  height: 550px;
+  width: 100%;
+  background: white;
+}
+
+.sales-trd h2 {
+  text-align: center;
+  padding-top: 80px;
+  width: 90%;
+  margin: 0 auto;
+  /*font-size: 60px;*/
+  font-weight: 700;
+}
+
+.email-wrp {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.email-wrp img {
+  width: 180px;
+  -webkit-animation: bounce 1s infinite;
+}
+
+.email-wrp:hover {
+}
+
+@keyframes bounce {
+  0% { top: 0; }
+  50% { transform: translateY(-25px); top: 140px; }
+  100% { top: 0; }
 }
 
 @media only screen and (min-width : 768px) {
