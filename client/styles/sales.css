@@ -112,10 +112,17 @@
   margin: 0 auto;
   /*font-size: 60px;*/
   font-weight: 700;
+  border: solid 1px black;
 }
 
-.sales-sec h4 {
-  width: 75%;
+.sales-sec ul {
+  /*padding-top: 12px;*/
+}
+
+.sales-sec li {
+  width: 80%;
+  font-size: 26px;
+  text-align: left;
   margin: 0 auto;
   padding-top: 30px;
 }

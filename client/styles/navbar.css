@@ -1,14 +1,27 @@
 .navbar {
   position: fixed;
-  background: #3a4349;
+  background: transparent;
   margin: 0;
   width: 100%;
   z-index: 1;
   padding: 0;
   display: block;
+  border: none;
+}
+
+
+.navbar-inverse .navbar-brand {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
 }
 
 .navbar-brand {
   font-size: 20px;
-  color: white;
+}
+
+.navbar-toggle {
+  border: none;
 }

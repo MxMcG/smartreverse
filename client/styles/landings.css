@@ -1,11 +1,11 @@
 .landings-container {
-  position: relative;
+  /*position: relative;*/
   height: 550px;
   width: 100%;
   padding: 0;
   z-index: 0;
   background: lightgray;
-  top: 50px;
+  /*top: 50px;*/
   margin: 0 auto;
 }
 
@@ -16,7 +16,7 @@
   background-size: 100% 100%;
   height: 550px;
   width: 100%;
-  opacity: 0.4;
+  opacity: .9;
 }
 
 #opener .cover {
@@ -26,8 +26,9 @@
   width: 100%;
   position: absolute;
   text-align: center;
-  font-family: "Conv_Gotham-Bold";
+  font-family: "Helvetica Neue";
   display: block;
+  color: #185ba0;
 }
 
 .cover h2 {
@@ -42,6 +43,7 @@
   width: 60%;
   margin: 0 auto;
   padding-top: 30px;
+  color: white;
 }
 
 #secondary {
@@ -49,9 +51,9 @@
 }
 
 .sales-btn {
-  position: absolute;
+  position: relative;
   width: 100%;
-  bottom: 0;
+  top: 60px;
   text-align: center;
   margin-bottom: 100px;
 }
@@ -90,26 +92,24 @@
 .mid-top {
   width: 100%;
   height: 30%;
-  border-top: 1px gray solid;
-  border-bottom: 1px gray solid;
   text-align: center;
 }
 
-.mid-top h3 {
+.mid-top h2 {
   width: 90%;
+  font-size: 60px;
   margin: 0 auto;
   height: 100%;
   padding-top: 35px;
 }
 
-.mid-btm {
+/*.mid-btm {
   position: relative;
   top: 10%;
   width: 100%;
   height: 60%;
-  border-top: 1px gray solid;
-  border-bottom: 1px gray solid;
-}
+  border: 1px gray solid;
+}*/
 
 .mid-btm img {
   width: 100%;
@@ -120,6 +120,7 @@
 .mid-btm h3 {
   width: 70%;
   margin: 0 auto;
+  font-size: 20px;
   padding-top: 40px;
 }
 
@@ -197,9 +198,14 @@
   .sales-btn {
     margin-bottom: 70px;
   }
+  .mid-top h2 {
+    width: 90%;
+    font-size: 40px;
+    padding-top: 0;
+  }
   .mid-btm h3 {
     width: 90%;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 80px;
   }
 }
