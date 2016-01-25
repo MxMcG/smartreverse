@@ -7,21 +7,40 @@
   padding: 0;
   display: block;
   border: none;
+  height: 70px;
 }
 
 
-.navbar-inverse .navbar-brand {
-  color: black;
+.navbar-right {
+
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: black;
+  color: #3a4349;
+  margin-top: 8px;
+  font-size: 20px;
 }
 
 .navbar-brand {
   font-size: 20px;
+  position: relative;
+  bottom: 22px;
+  right: 10px;
 }
 
 .navbar-toggle {
   border: none;
+}
+
+
+@media screen and (max-width:600px) {
+  .navbar-brand img {
+    width: 220px;
+    height: 60px;
+    position: relative;
+    top: 8px;
+  }
+  .navbar-toggle {
+    margin-top: 16px;
+  }
 }
