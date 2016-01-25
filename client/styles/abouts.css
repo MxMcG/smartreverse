@@ -4,18 +4,40 @@
   width: 100%;
   padding: 0;
   z-index: 0;
-  top: 50px;
   margin: 0 auto;
 }
 
 .abouts-fir {
   height: 550px;
-  width: 100%;
   background: #F2f2f2;
+}
+
+.abouts-fir h2 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+
+.abouts-fir h4 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 15px;
+}
+
+.abouts-fir img {
+  padding-top: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.abouts-fir p {
+  padding-top: 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .abouts-sec {
   height: 550px;
   width: 100%;
-  background: black;
+  background: gray;
 }

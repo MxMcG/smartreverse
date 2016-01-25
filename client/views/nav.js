@@ -8,10 +8,10 @@
 
       if ($(this).scrollTop() > 550) {
         $('.navbar').css('background', '#3a4349')
-        $('.navbar-inverse .navbar-nav > li > a ').css('color', 'white')
+        $('.navbar-inverse .navbar-toggle .icon-bar').css('background-color', 'white')
       } else if ($(this).scrollTop() < 550) {
         $('.navbar').css('background', 'transparent');
-        $('.navbar-inverse .navbar-nav > li > a ').css('color', '#3a4349')
+        $('.navbar-inverse .navbar-toggle .icon-bar').css('background-color', '#3a4349')
       }
 
     });

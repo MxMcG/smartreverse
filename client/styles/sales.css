@@ -112,11 +112,10 @@
   margin: 0 auto;
   /*font-size: 60px;*/
   font-weight: 700;
-  border: solid 1px black;
 }
 
 .sales-sec ul {
-  /*padding-top: 12px;*/
+  padding-left: 20px;
 }
 
 .sales-sec li {
