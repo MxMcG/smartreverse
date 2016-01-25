@@ -21,7 +21,7 @@
   padding-top: 60px;
   width: 90%;
   margin: 0 auto;
-  /*font-size: 60px;*/
+  color: #185ba0;
   font-weight: 700;
 }
 
@@ -72,7 +72,7 @@
 }
 .info-wrp a {
   position: relative;
-  top: 28px;
+  top: 18px;
   color: #1c5380;
   font-size: 30px;
   font-weight: 400;
@@ -110,7 +110,7 @@
   padding-top: 60px;
   width: 90%;
   margin: 0 auto;
-  /*font-size: 60px;*/
+  color: #185ba0;
   font-weight: 700;
 }
 
@@ -139,7 +139,7 @@
   padding-top: 80px;
   width: 90%;
   margin: 0 auto;
-  /*font-size: 60px;*/
+
   font-weight: 700;
 }
 
@@ -171,5 +171,15 @@
   }
   .info-wrp {
     padding-top: 70px;
+  }
+  .sales-sec li {
+    width: 80%;
+    font-size: 46px;
+  }
+  .sales-fir h2 {
+    font-size: 40px;
+  }
+  .sales-fir h4 {
+    font-size: 25px;
   }
 }

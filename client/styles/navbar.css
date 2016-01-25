@@ -39,7 +39,7 @@
 
 @media screen and (max-width:600px) {
   .navbar-brand img {
-    width: 220px;
+    width: 210px;
     height: 60px;
     position: relative;
     top: 8px;
