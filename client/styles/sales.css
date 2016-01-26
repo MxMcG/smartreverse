@@ -81,7 +81,7 @@
 /*Second section*/
 
 .sales-sec {
-  height: 550px;
+  height: 650px;
   width: 100%;
   background: #F2f2f2;
 }
@@ -175,6 +175,10 @@
   .sales-sec li {
     width: 80%;
     font-size: 46px;
+
+  }
+  .sales-sec {
+    height: 800px;
   }
   .sales-fir h2 {
     font-size: 40px;
