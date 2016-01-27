@@ -17,8 +17,8 @@ Template.sales.helpers({
 Template.sales.events({
   'submit .email-form': function (e) {
     e.preventDefault();
-    var emailInput = $('input[type=text]').val();
-    Meteor.call('sendEmail', 'david@bluefriendly.com', 'david@bluefriendly.com', 'New Email Submission', emailInput);
+    var emailAddress = $('input[name=email]').val();
+    var emailMessage = $('input[name=message]').val();
+    Meteor.call('sendEmail', 'dmcgee@c2financialcorp.com', 'dmcgee@c2financialcorp.com', 'New Email Submission', 'From: ' + emailAddress + ' Message: ' + emailMessage );
   }
-
 })
