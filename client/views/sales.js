@@ -13,3 +13,12 @@ Template.sales.helpers({
     return false;
   }
 });
+
+Template.sales.events({
+  'submit .email-form': function (e) {
+    e.preventDefault();
+    var emailInput = $('input[type=text]').val();
+    Meteor.call('sendEmail', 'david@bluefriendly.com', 'david@bluefriendly.com', 'New Email Submission', emailInput);
+  }
+
+})
