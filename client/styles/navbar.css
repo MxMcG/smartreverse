@@ -15,8 +15,25 @@
 
 }
 
-.navbar-right {
 
+.navbar-toggle:hover {
+ background-color: transparent;
+}
+
+.navbar-nav li:hover {
+  background-color: #3a4349;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-toggle:focus {
+  background-color: #3a4349;
+}
+
+.navbar-header {
+  height: 70px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -32,10 +49,18 @@
   right: 10px;
 }
 
-.navbar-toggle {
+.navbar-toggle  {
   border: none;
+  background-color: transparent;
 }
 
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:focus .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar a {
+    color: black;
+  }
 
 @media screen and (max-width:600px) {
   .navbar-brand img {
@@ -46,5 +71,18 @@
   }
   .navbar-toggle {
     margin-top: 16px;
+  }
+  .navbar-collapse {
+    border: none;
+    background-color: #3a4349;
+  }
+  .navbar-toggle:focus {
+    background-color: #3a4349;
+  }
+  .navbar a {
+    color: white;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    color: white;
   }
 }
